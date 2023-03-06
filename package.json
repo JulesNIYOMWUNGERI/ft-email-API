@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/JulesNIYOMWUNGERI/ft-email-API/issues"
   },
-  "homepage": "https://github.com/JulesNIYOMWUNGERI/ft-email-API#readme"
+  "homepage": "https://github.com/JulesNIYOMWUNGERI/ft-email-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "passport-google-oauth": "^2.0.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.0"
+  }
 }
