@@ -20,7 +20,6 @@ form.addEventListener("submit", (event) => {
 
 //Set the API_KEY
 
-const SENDGRID_API_KEY = "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"
 sgMail.setApiKey(SENDGRID_API_KEY);
 
 const msg = {
